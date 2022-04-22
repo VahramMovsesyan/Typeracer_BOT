@@ -16,6 +16,7 @@ text = driver.find_element_by_class_name("gameView").text
 text = text.split("\n")
 # print(text[-3])
 
+
 # waiting for start the game
 time.sleep(15)
 
